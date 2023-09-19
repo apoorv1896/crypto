@@ -1,0 +1,46 @@
+.searchResultContainer{
+    /* border:2px solid red; */
+    overflow-y: scroll;
+}
+
+.searchContainer22{
+    margin-bottom: 1rem;
+   
+}
+
+.searchContainer22 h3{
+    width: 5%;
+
+    /* border: 1px solid red; */
+}
+
+
+.searchContainer22 div{
+    width: 60%;
+    /* border: 2px solid green; */
+}
+
+@media only screen and (max-width: 600px) {
+
+    .search1{
+        /* background-color: red; */
+        width: fit-content;
+        border: 4px solid wheat;
+        width: 10ch;
+        padding: 10px 20px;
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column ;
+        width: 80%;
+    }
+
+    .searchContaner{
+     
+        /* margin-left: -60%; */
+    }
+
+}
